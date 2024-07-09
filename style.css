@@ -1,0 +1,50 @@
+body {
+  font-family: Roboto Condensed;
+  background-image: url("https://img-aws.ehowcdn.com/877x500p/photos.demandstudios.com/getty/article/106/99/161926148.jpg?type=webp");
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  width: 400px;
+  margin: 100px auto;
+  background-color: #FF9B9B;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 96%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
+}
